@@ -1,4 +1,4 @@
-<x-guest-layout>
+{{-- <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
             <x-authentication-card-logo />
@@ -31,4 +31,52 @@
             </div>
         </form>
     </x-authentication-card>
-</x-guest-layout>
+</x-guest-layout> --}}
+@extends('plantillas.inicioideas')
+@section('titulo', 'Exponencial v2.0')
+@section('contenido')
+<div class="account-pages mt-5 mb-5">
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-md-5 offset-md-3">
+                <div class="card">
+                    <div class="card-header"><span><img src="https://i.ibb.co/DkF1qXM/MVS-EXP-1.png"
+                                height="100"></span>
+                        <p class="text-ques">¿Olvidaste tu contraseña?
+                            Simplemente háganos saber su dirección de correo electrónico y le enviaremos un
+                            enlace para
+                            restablecer su contraseña que le permitirá elegir una nueva.</p>
+                    </div>
+                    <div class="card-body">
+
+                        @if (session('status'))
+                            <div class="mb-4 font-medium text-sm text-green-600">
+                                {{ session('status') }}
+                            </div>
+                        @endif
+
+                        <x-validation-errors class="mb-4" />
+                        <form method="POST" action="{{ route('password.email') }}">
+                            @csrf
+
+                            <div class="form-group mb-3">
+                                {{-- <label for="email" value="{{ __('Correo') }}" /> --}}
+                                <input id="email" type="email" class="form-control" name="email"
+                                    value="{{ old('email') }}" required autofocus autocomplete="username"
+                                    placeholder="Correo">
+                            </div>
+
+                            <br>
+                            <div class="d-grid btnizquierda">
+                                <button type="submit"
+                                    class="btnlogin">{{ __('Restablecer') }}</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

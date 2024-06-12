@@ -18,10 +18,10 @@
     @endphp
 
     <!-- App css -->
-    <link rel="stylesheet" href="{{ asset('build/' . $manifest['resources/css/app.css']['file']) }}">
+    <link rel="stylesheet" href="{{ asset('build/' . $manifest['resources/css/appSty.css']['file']) }}">
 
     <!-- App js -->
-    <script src="{{ asset('build/' . $manifest['resources/js/app.js']['file']) }}"></script>
+    <script src="{{ asset('build/' . $manifest['resources/js/appJS.js']['file']) }}"></script>
 
     <meta http-equiv="Expires" content="0">
     <meta http-equiv="Last-Modified" content="0">

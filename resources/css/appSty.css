@@ -1,4 +1,7 @@
-@import 'bootstrap/dist/css/bootstrap.css';   body {
+@import 'bootstrap/dist/css/bootstrap.css';  
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+.logofondo {
     background-image: url('https://i.ibb.co/vP7BHzP/Comida-deliberacio-n.png'); 
     background-size: cover;
     background-position: center;
@@ -129,3 +132,5 @@ input::-ms-input-placeholder {
 .footer a:hover {
     text-decoration: underline;
 }
+
+/* fin INCIO LOGIN RECUPERAR CREAR */

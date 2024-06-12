@@ -1,5 +1,3 @@
-
-
 {{-- <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
@@ -57,8 +55,16 @@
         <div class="row">
             <div class="col-md-5 offset-md-3">
                 <div class="card">
-                    <div class="card-header"><span><img src="https://i.ibb.co/DkF1qXM/MVS-EXP-1.png" height="100"></span></div>
+                    <div class="card-header"><span><img src="https://i.ibb.co/DkF1qXM/MVS-EXP-1.png" height="100"></span>
+                    </div>
                     <div class="card-body">
+                        <x-validation-errors class="mb-4" />
+
+                        @session('status')
+                            <div class="mb-4 font-medium text-sm text-green-600">
+                                {{ $value }}
+                            </div>
+                        @endsession
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
                             <div class="mb-3 btnizquierda">
@@ -67,7 +73,8 @@
                             <div class="mb-3">
                                 {{-- <label for="email" class="form-label">{{ __('Correo') }}</label> --}}
                                 <input id="email" type="email" class="form-control" name="email"
-                                    value="{{ old('email') }}" required autofocus autocomplete="username" placeholder="Correo">
+                                    value="{{ old('email') }}" required autofocus autocomplete="username"
+                                    placeholder="Correo">
                             </div>
                             <div class="mb-3">
                                 {{-- <label for="password" class="form-label">{{ __('Contraseña') }}</label> --}}
@@ -88,7 +95,7 @@
                     <div class="col-12 text-center">
                         <p> <a href="{{ route('password.request') }}" class="text-ques ml-1">¿Olvidaste tu
                                 contraseña?</a></p>
-                        <p ><a href="{{ route('register') }}" class="text-ques ml-1"> Regístrate </a>
+                        <p><a href="{{ route('register') }}" class="text-ques ml-1"> Regístrate </a>
                         </p>
                     </div> <!-- end col -->
                 </div>
