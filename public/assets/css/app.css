@@ -360,7 +360,7 @@ body.enlarged {
   .logo span.logo-sm {
     display: none; }
   .logo .logo-lg-text-dark {
-    color: #414d5f;
+    color: #000000;
     font-weight: 700;
     font-size: 22px;
     text-transform: uppercase; }
@@ -432,7 +432,7 @@ body.enlarged {
               box-shadow: none !important; }
   .navbar-custom .button-menu-mobile {
     border: none;
-    color: #414d5f;
+    color: #000000;
     display: inline-block;
     height: 70px;
     line-height: 70px;
@@ -443,7 +443,7 @@ body.enlarged {
     .navbar-custom .button-menu-mobile span {
       width: 18px;
       height: 2px;
-      background-color: #414d5f;
+      background-color: #000000;
       display: block;
       margin: 5px 12px; }
       .navbar-custom .button-menu-mobile span:nth-of-type(2) {
@@ -458,7 +458,7 @@ body.enlarged {
 .notification-list {
   margin-left: 0; }
   .notification-list .noti-title {
-    background-color: #414d5f;
+    background-color: #000000;
     padding: 15px 20px;
     margin-top: -0.25rem; }
   .notification-list .noti-icon {
@@ -488,7 +488,7 @@ body.enlarged {
       margin-left: 45px;
       text-overflow: ellipsis;
       white-space: nowrap;
-      color: #414d5f;
+      color: #000000;
       font-family: "Work Sans", sans-serif; }
       .notification-list .notify-item .notify-details b {
         font-weight: 500; }
@@ -651,7 +651,7 @@ body.enlarged {
     .right-bar .user-box h5 {
       margin-bottom: 2px; }
       .right-bar .user-box h5 a {
-        color: #414d5f; }
+        color: #000000; }
 
 .rightbar-overlay {
   background-color: rgba(65, 77, 95, 0.55);
@@ -853,7 +853,7 @@ body.boxed-layout.enlarged .footer {
     .inbox-widget .inbox-item .inbox-item-img img {
       width: 40px; }
   .inbox-widget .inbox-item .inbox-item-author {
-    color: #414d5f;
+    color: #000000;
     display: block;
     margin-bottom: 3px; }
   .inbox-widget .inbox-item .inbox-item-text {
@@ -895,7 +895,7 @@ body.boxed-layout.enlarged .footer {
       width: 12px;
       border-radius: 50%;
       background-color: #fff;
-      color: #414d5f;
+      color: #000000;
       margin-top: 3px;
       border: 2px solid #dee2e6;
       z-index: 1;
@@ -1037,8 +1037,8 @@ body.boxed-layout.enlarged .footer {
   border-color: #fff; }
 
 .checkbox-dark input[type="checkbox"]:checked + label::before {
-  background-color: #414d5f;
-  border-color: #414d5f; }
+  background-color: #000000;
+  border-color: #000000; }
 
 .checkbox-dark input[type="checkbox"]:checked + label::after {
   border-color: #fff; }
@@ -1190,13 +1190,13 @@ body.boxed-layout.enlarged .footer {
   background-color: #f1f5f7; }
 
 .radio-dark input[type="radio"] + label::after {
-  background-color: #414d5f; }
+  background-color: #000000; }
 
 .radio-dark input[type="radio"]:checked + label::before {
-  border-color: #414d5f; }
+  border-color: #000000; }
 
 .radio-dark input[type="radio"]:checked + label::after {
-  background-color: #414d5f; }
+  background-color: #000000; }
 
 .radio-pink input[type="radio"] + label::after {
   background-color: #e36498; }
@@ -1280,7 +1280,7 @@ body.boxed-layout.enlarged .footer {
     .ribbon-box .ribbon-light:before {
       border-color: #d1dee4 transparent transparent; }
   .ribbon-box .ribbon-dark {
-    background: #414d5f; }
+    background: #000000; }
     .ribbon-box .ribbon-dark:before {
       border-color: #2c3441 transparent transparent; }
   .ribbon-box .ribbon-pink {
@@ -1388,7 +1388,7 @@ body.boxed-layout.enlarged .footer {
       border-right: 3px solid #c0d2db;
       border-top: 3px solid #c0d2db; }
   .ribbon-box .ribbon-two-dark span {
-    background: #414d5f; }
+    background: #000000; }
     .ribbon-box .ribbon-two-dark span:before {
       border-left: 3px solid #222832;
       border-top: 3px solid #222832; }
@@ -1756,7 +1756,7 @@ body.boxed-layout.enlarged .footer {
   cursor: pointer;
   height: 32px;
   width: 32px;
-  background-color: #414d5f;
+  background-color: #000000;
   border-radius: 50%;
   text-align: center;
   line-height: 32px; }
@@ -1802,9 +1802,9 @@ body.boxed-layout.enlarged .footer {
   border-color: #f1f5f7; }
 
 .jq-icon-dark {
-  background-color: #414d5f;
+  background-color: #000000;
   color: #fff;
-  border-color: #414d5f; }
+  border-color: #000000; }
 
 .jq-icon-pink {
   background-color: #e36498;
@@ -2018,10 +2018,10 @@ body.boxed-layout.enlarged .footer {
 .irs--square .irs-to,
 .irs--square .irs-single,
 .irs--square .irs-bar {
-  background-color: #414d5f; }
+  background-color: #000000; }
 
 .irs--square .irs-handle {
-  border: 3px solid #414d5f; }
+  border: 3px solid #000000; }
 
 div.hopscotch-bubble {
   border: 3px solid #5089de;
@@ -2267,7 +2267,7 @@ div.dt-button-info {
 
 .responsive-table-plugin .btn-default {
   background-color: #fff;
-  color: #414d5f;
+  color: #000000;
   border: 1px solid rgba(65, 77, 95, 0.3); }
   .responsive-table-plugin .btn-default.btn-primary {
     background-color: #5089de;
@@ -2322,7 +2322,7 @@ div.dt-button-info {
   text-transform: none;
   border: 1px solid #dee2e6;
   padding: 3px 10px;
-  color: #414d5f; }
+  color: #000000; }
   .tablesaw-enhanced .tablesaw-bar .btn:after {
     display: none; }
 
@@ -2382,7 +2382,7 @@ div.dt-button-info {
 
 .jvectormap-label {
   border: none;
-  background: #414d5f;
+  background: #000000;
   color: #fff;
   font-family: "Work Sans", sans-serif;
   font-size: 0.8125rem;
@@ -2486,7 +2486,7 @@ div.dt-button-info {
 
 .select2-container--default .select2-results__option[aria-selected=true] {
   background-color: #f1f5f7;
-  color: #414d5f; }
+  color: #000000; }
   .select2-container--default .select2-results__option[aria-selected=true]:hover {
     background-color: #5089de;
     color: #fff; }
@@ -2730,7 +2730,7 @@ div.dt-button-info {
 
 .flotTip {
   padding: 8px 12px;
-  background-color: #414d5f;
+  background-color: #000000;
   z-index: 100;
   color: #fff;
   opacity: 1;
@@ -2767,7 +2767,7 @@ div.dt-button-info {
     text-align: center;
     border-radius: 5px;
     padding: 10px 12px;
-    background: #414d5f;
+    background: #000000;
     color: #fff;
     font-family: "Poppins", sans-serif; }
     .morris-hover.morris-default-style .morris-hover-row-label {
@@ -2880,7 +2880,7 @@ div.dt-button-info {
   min-width: 10px;
   padding: 2px 10px;
   border-radius: 3px;
-  background: #414d5f;
+  background: #000000;
   color: #fff;
   text-align: center;
   pointer-events: none;
@@ -2895,12 +2895,12 @@ div.dt-button-info {
           box-sizing: content-box;
   width: auto !important;
   height: auto !important;
-  background-color: #414d5f !important;
+  background-color: #000000 !important;
   -webkit-box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
           box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   padding: 5px 10px !important;
   border-radius: 3px;
-  border-color: #414d5f !important; }
+  border-color: #000000 !important; }
 
 .jqsfield {
   color: #fff !important;

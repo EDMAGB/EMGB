@@ -16,4 +16,27 @@
 @extends('plantillas.layouts')
 @section('titulo', 'Panel de control Admin')
 @section('contenido')
+<br>
+<div class="tituloprincipal">
+    <p class="textitulo"> Panel de Control
+    <p>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-4 div1">
+        <h3 class="titulocard1">Colaboradores</h3>
+        <p class="textcard1">50</p>
+    </div>
+    <div class="col-md-4 div2">
+        <h3 class="titulocard2"> Proyectos</h3>
+        <p class="textcard2">20</p>
+    </div>
+    <div class="col-md-4 div3">
+        <h3 class="titulocard3"> Demo Day</h3>
+        <p class="textcard3">04/ 08 / 2024</p>
+        <p class="textcard3">Demo Day 1</p>
+    </div>
+</div>
+
+
 @endsection
