@@ -1,4 +1,6 @@
-<x-guest-layout>
+
+
+{{-- <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
             <x-authentication-card-logo />
@@ -45,4 +47,52 @@
             </div>
         </form>
     </x-authentication-card>
-</x-guest-layout>
+</x-guest-layout> --}}
+@extends('plantillas.inicioideas')
+@section('titulo', 'Exponencial v2.0')
+@section('contenido')
+
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col-md-5 offset-md-3">
+                <div class="card">
+                    <div class="card-header"><span><img src="https://i.ibb.co/DkF1qXM/MVS-EXP-1.png" height="100"></span></div>
+                    <div class="card-body">
+                        <form method="POST" action="{{ route('login') }}">
+                            @csrf
+                            <div class="mb-3 btnizquierda">
+                                <label class="monRegular">{{ __('Ingrese sus credenciales') }}</label>
+                            </div>
+                            <div class="mb-3">
+                                {{-- <label for="email" class="form-label">{{ __('Correo') }}</label> --}}
+                                <input id="email" type="email" class="form-control" name="email"
+                                    value="{{ old('email') }}" required autofocus autocomplete="username" placeholder="Correo">
+                            </div>
+                            <div class="mb-3">
+                                {{-- <label for="password" class="form-label">{{ __('Contraseña') }}</label> --}}
+                                <input id="password" type="password" class="form-control" name="password" required
+                                    autocomplete="current-password" placeholder="Contrseña">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="remember_me" name="remember">
+                                <label class="form-check-label" for="remember_me">{{ __('Recuerdame') }}</label>
+                            </div>
+                            <div class="d-grid btnizquierda">
+                                <button type="submit" class="btnlogin">{{ __('Ingresar') }}</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12 text-center">
+                        <p> <a href="{{ route('password.request') }}" class="text-ques ml-1">¿Olvidaste tu
+                                contraseña?</a></p>
+                        <p ><a href="{{ route('register') }}" class="text-ques ml-1"> Regístrate </a>
+                        </p>
+                    </div> <!-- end col -->
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
